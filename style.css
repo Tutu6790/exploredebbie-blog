@@ -1,0 +1,89 @@
+/* font-family: 'Montserrat', sans-serif; */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+h1,h2.h3,h4,h5 {
+    font-weight: 700;
+}
+a {
+    color:rgb(4, 4, 87);
+}
+a.nav-link {
+    color: rgb(246, 246, 250);
+}
+a.nav-link:hover {
+    color: rgb(133, 127, 127);
+}
+a.navbar-brand {
+    color: red;
+}
+
+/* header */
+.navbar {
+    background-color: rgb(4, 4, 87);
+    /* color: red !important; */
+
+}
+.navbar-toggler {
+    background-color: rgb(246, 248, 248);
+}
+/* .navbar-toggler-icon {
+    background-color: rgb(15, 15, 15);
+    
+} */
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+
+}
+.btn-main {
+    background-color: red !important;
+   
+    padding: 7px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+/* hero */
+
+.hero {
+    background-color: rgb(241, 236, 236);
+}
+.hero-post-badges {
+    position: absolute;
+    top: 20px;
+    right:20px;
+    background-color: transparent;
+}
+.hero-post-badges > a {
+    background-color: white;
+    color: rgb(4, 4, 87);
+    display: block;
+    font-weight: 700;
+}
+/* .hero-post-content {
+    /* position: absolute;
+    bottom: 0; */
+
+    @media screen and  (max-width: 800px) {
+      .test0 {
+          width: 50px;
+          height: 50px;
+      }
+      .blog {
+          font-size: 20px;
+      }  
+      .blogpost {
+          margin-top: 30px;
+      }
+      .social-link {
+          text-align: left;
+          color: rgb(4, 4, 87);
+          font-size: 30px;
+          
+      }
+      .credits {
+          background-color: rgb(235, 235, 243);
+          padding: 10px;
+      }
+    }
